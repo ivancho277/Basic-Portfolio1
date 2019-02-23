@@ -65,10 +65,13 @@ img {
 .abouttxt {
     padding: 10px;
 }
-/* footer syle */
 
+/* footer syle */
 .footer {
-    position: absolute;
+    position: fixed;
+    text-align: center;
+    background-color: rgb(29, 31, 160);
+    color: white;
     left: 0; right: 0; bottom: 0;
     height: 30px;
 }
