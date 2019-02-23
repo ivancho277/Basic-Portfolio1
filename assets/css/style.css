@@ -51,6 +51,7 @@ body {
 
 
 
+
 .portfoliolink {
     width: 80px;
     height: 80px;
@@ -85,11 +86,13 @@ form {
     width: 200px;
     height: 150px;   
     padding: 10px;
-    position: absolute;
+    float: left;
+    position: relative;
 }
 
 .abouttxt {
     padding: 10px;
+    position: relative;
 }
 
 /* footer syle */
