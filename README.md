@@ -1,2 +1,2 @@
 # Basic-Portfolio1
-first portfolio
+This is my first webpage built, using only basic css and html. Nothing extra is used.

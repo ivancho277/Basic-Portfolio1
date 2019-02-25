@@ -21,6 +21,7 @@ body {
     height: 7%;
     top: 0;
     border-bottom: 10px, solid, green;
+    overflow: auto;
 }
 
 /* this is my names h1 box */
@@ -46,18 +47,22 @@ body {
     border: 1px solid rgb(60, 207, 23);
     padding: 20px;
     position: relative;
+     overflow: auto;
     
 }
-
-
-
 
 .portfoliolink1, .portfoliolink2, .portfoliolink3, .portfoliolink4,.portfoliolink5,.portfoliolink6 {
     
     width: 80px;
     height: 80px;
-   margin: 10px;
-    padding: 5px;
+    margin: 10px;
+    padding: 50px;
+    position: relative;
+    
+}
+
+.portfoliolink1, .portfoliolink3, .portfoliolink5 {
+    float: left;
 }
 
 form {
@@ -69,10 +74,6 @@ form {
     height: 90px;
     padding: 10px;
     border: 1px solid black;
-   position: absolute;
-   
-    
-    
   
 }
 
@@ -83,7 +84,8 @@ form {
     padding: 10px;
     width: 100px;
     height: 100px;
-    position: relative;
+    position: absolute;
+    height: 10px;
 }
 /* picture of me on about page */
 .aboutimg {
